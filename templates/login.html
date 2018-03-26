@@ -1,0 +1,31 @@
+<div id="login-page" class="row" align="center" style="display: table;margin: auto;">
+    <div class="col s12 z-depth-4 card-panel" style="vertical-align:middle;height: 100%;margin-top:30%">
+      <form class="login-form">
+        <div class="row">
+          <div class="input-field col s12 center">
+            <img src="images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
+            <p class="center login-form-text">Angular Starter Login</p>
+          </div>
+        </div>
+        <div class="row">
+         <div class="input-field col s12">
+           <i class="material-icons prefix">account_circle</i>
+          <input id="username" type="text" ng-model="username">
+          <label for="username">Username</label>
+        </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">lock_outline</i>
+          <input id="password" type="password" ng-model="password">
+          <label for="password">Password</label>
+        </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <a ui-sref="home" class="btn waves-effect waves-light col s12 deep-orange">Login</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
